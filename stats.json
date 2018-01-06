@@ -1,20 +1,24 @@
 {
   "assetsByChunkName": {
     "component---src-pages-css-flex-js": [
-      "component---src-pages-css-flex-js-3957c5c84cdac8751ddd.js",
-      "component---src-pages-css-flex-js-3957c5c84cdac8751ddd.js.map"
+      "component---src-pages-css-flex-js-6ec30cf0106df8b8d49c.js",
+      "component---src-pages-css-flex-js-6ec30cf0106df8b8d49c.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-7a4e4c772cc368d4b2ef.js",
-      "component---src-pages-index-js-7a4e4c772cc368d4b2ef.js.map"
+      "component---src-pages-index-js-3f44296abf9162b39898.js",
+      "component---src-pages-index-js-3f44296abf9162b39898.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "path---css": [
+      "path---css-a0e39f21c11f6a62c5ab.js",
+      "path---css-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-221f5c960c2769c31ac2.js",
-      "component---src-layouts-index-js-221f5c960c2769c31ac2.js.map"
+      "component---src-layouts-index-js-1c0ef015109d3a5adc57.js",
+      "component---src-layouts-index-js-1c0ef015109d3a5adc57.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -25,18 +29,20 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-f1ef510847f79fa0a799.js",
-      "commons-f1ef510847f79fa0a799.js.map"
+      "commons-8b186acffa48646bd616.js",
+      "commons-8b186acffa48646bd616.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-css-index-js": [
+      "component---src-pages-css-index-js-eb2d1780ed52526a0b83.js",
+      "component---src-pages-css-index-js-eb2d1780ed52526a0b83.js.map"
+    ],
     "app": [
-      "app-69a8693975184165fce2.js",
-      "build-js-styles.css",
-      "app-69a8693975184165fce2.js.map",
-      "build-js-styles.css.map"
+      "app-e1d72313c1f062314046.js",
+      "app-e1d72313c1f062314046.js.map"
     ],
     "path---css-flex": [
       "path---css-flex-a0e39f21c11f6a62c5ab.js",
