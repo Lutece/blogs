@@ -6,7 +6,8 @@
   "dependencies": {
     "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.32",
-    "gatsby-plugin-react-helmet": "^1.0.8"
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.15"
   },
   "keywords": [
     "gatsby"
@@ -17,9 +18,10 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "git add . && git commit -m 'upload source' && git push origin master && gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
+    "gatsby-plugin-typography": "^1.7.10",
     "gh-pages": "^1.1.0",
     "prettier": "^1.9.2"
   }

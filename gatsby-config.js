@@ -3,5 +3,8 @@ module.exports = {
     title: `Lutece Blog`,
     pathPrefix: `blog`
   },
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`
+  ],
 }

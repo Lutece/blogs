@@ -3,31 +3,32 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-import './index.css'
+import './font.scss';
 
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
+      margin:'0 4em 1.45em 4em',
+      borderBottom: '1px solid #000',
+      textAlign: 'center'
     }}
   >
     <div
       style={{
         margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
+        maxWidth: 1020,
+        padding: '1.45rem 1.0875rem'
       }}
     >
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
-            color: 'white',
-            textDecoration: 'none',
+            color: '#000',
+            textDecoration: 'none'
           }}
         >
-          Gatsby
+          Lutece 블로그
         </Link>
       </h1>
     </div>
@@ -39,15 +40,15 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Gatsby Default Starter"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Tech blog by Lutece' },
+        { name: 'keywords', content: 'javascript,css,html,react,webpack,mobx,git,gulp' },
       ]}
     />
     <Header />
     <div
       style={{
         margin: '0 auto',
-        maxWidth: 960,
+        maxWidth: 1020,
         padding: '0px 1.0875rem 1.45rem',
         paddingTop: 0,
       }}
