@@ -9,8 +9,7 @@ const Header = () => (
   <div
     style={{
       margin:'0 4em 1.45em 4em',
-      borderBottom: '1px solid #000',
-      textAlign: 'center'
+      borderBottom: '1px solid #000'
     }}
   >
     <div
