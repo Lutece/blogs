@@ -20,17 +20,18 @@ const Header = () => (
           to="/"
           className="header--link"
         >
-          읽고 다시 쓰는 블로그
+        In Progress
         </Link>
       </h1>
       <p>
-          개발과 관련된 개념들을 배우고 기록하는 블로그입니다.
+        프론트엔드 개발 경험을 기록하는 블로그입니다.
       </p>
-      <ul className="header--category">
+      
+      {/* <ul className="header--category">
         <li>React</li>
         <li>Webpack</li>
         <li>Mobx</li>
-      </ul>
+      </ul> */}
     </div>
   </header>
 )
@@ -38,7 +39,7 @@ const Header = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="읽고 다시 쓰기"
+      title="In Progress"
       meta={[
         { name: 'description', content: 'Tech blog by Lutece' },
         { name: 'keywords', content: 'javascript,css,html,react,webpack,mobx,git,gulp' },
