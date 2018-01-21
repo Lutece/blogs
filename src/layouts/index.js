@@ -64,7 +64,6 @@ class TemplateWrapper extends React.Component {
           title="In Progress"
           meta={[
             { name: 'author', content: 'Lutece'},
-            { name: 'description', content: 'Tech blog by Lutece' },
             { name: 'keywords', content: 'javascript,css,html,react,webpack,mobx,git,gulp' },
           ]}
         />
