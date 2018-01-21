@@ -19,7 +19,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "deploy": "git add . && git commit -m 'upload source' && git push origin master -f && gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "git add . && git commit -m 'upload source' && git push origin master && gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
     "bluebird": "^3.5.1",
