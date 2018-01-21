@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
-import Helmet from 'react-helmet'
 
 import './scss/index.scss';
 
@@ -60,14 +59,6 @@ class TemplateWrapper extends React.Component {
 
     return (
       <div>
-        <Helmet
-          title="In Progress"
-          meta={[
-            { name: 'author', content: 'Lutece'},
-            { name: 'keywords', content: 'javascript,css,html,react,webpack,mobx,git,gulp' },
-          ]}
-        />
-
         <Header isRoot={isRoot} />
         
         <div
