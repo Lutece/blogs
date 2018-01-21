@@ -1,16 +1,17 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "in-progress-blog",
+  "description": "Frontend Blog",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Lutece",
   "dependencies": {
     "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-sass": "^1.0.15"
+    "gatsby-plugin-sass": "^1.0.15",
+    "gatsby-source-filesystem": "^1.5.14"
   },
   "keywords": [
-    "gatsby"
+    "gatsby frontend developer"
   ],
   "license": "MIT",
   "main": "n/a",
@@ -21,8 +22,22 @@
     "deploy": "git add . && git commit -m 'upload source' && git push origin master -f && gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
+    "bluebird": "^3.5.1",
+    "gatsby-plugin-feed": "^1.3.15",
+    "gatsby-plugin-google-analytics": "^1.0.15",
+    "gatsby-plugin-offline": "^1.0.12",
+    "gatsby-plugin-sharp": "^1.6.25",
     "gatsby-plugin-typography": "^1.7.10",
+    "gatsby-remark-copy-linked-files": "^1.5.25",
+    "gatsby-remark-images": "^1.5.39",
+    "gatsby-remark-prismjs": "^1.2.12",
+    "gatsby-remark-responsive-iframe": "^1.4.16",
+    "gatsby-remark-smartypants": "^1.4.10",
+    "gatsby-source-filesystem": "^1.5.14",
+    "gatsby-transformer-remark": "^1.7.28",
+    "gatsby-transformer-sharp": "^1.6.16",
     "gh-pages": "^1.1.0",
+    "lodash": "^4.17.4",
     "prettier": "^1.9.2"
   }
 }
