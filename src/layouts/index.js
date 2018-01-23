@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 
 import './scss/index.scss';
+require("prismjs/themes/prism-okaidia.css");
 
 class Header extends React.Component {
   render() {
