@@ -1,2 +1,0 @@
-webpackJsonp([0x9b4712f66627],{298:function(e,t){e.exports={data:{markdownRemark:{html:"<p>google-site-verification: googlee2b21f8e034d2cbe.html</p>",frontmatter:{date:"January 20, 2018",path:"/googlee2b21f8e034d2cbe.html",title:"google"}}},pathContext:{}}}});
-//# sourceMappingURL=path---googlee-2-b-21-f-8-e-034-d-2-cbe-html-21b8eae8f3b75672ad6f.js.map
