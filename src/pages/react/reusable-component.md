@@ -1,5 +1,5 @@
 ---
-path: "/react/reusableComponent"
+path: "/react/1"
 date: "2018-01-23"
 title: "재사용 가능한 컴포넌트의 의미"
 ---

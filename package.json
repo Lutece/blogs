@@ -4,11 +4,14 @@
   "version": "1.0.0",
   "author": "Lutece",
   "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "^1.0.15",
-    "gatsby-source-filesystem": "^1.5.14"
+    "gatsby-source-filesystem": "^1.5.14",
+    "react-disqus-comments": "^1.1.1",
+    "react-disqus-thread": "^0.4.0"
   },
   "keywords": [
     "gatsby frontend developer"
