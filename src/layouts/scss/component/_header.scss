@@ -1,19 +1,25 @@
+header {
+  background: #282c34;
+  color: #61dafb;
+}
+
 .header--title {
   margin: 1.5rem 0 0 0 ;
   padding: 0 0 1rem 0;
-  font-weight: 300;
 }
 
 .header--title + p {
   padding: 1rem 0;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
-  font-weight: 300;
+  border-top: 1px solid #61dafb;
+  border-bottom: 1px solid #61dafb;
 }
 
 .header--link {
-  color: #000;
   text-decoration: none;
+}
+
+.header--link:visited {
+  color: #61dafb
 }
 
 .header--category {
