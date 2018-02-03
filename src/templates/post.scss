@@ -1,5 +1,11 @@
 .blog-post-container {
-  
+
+  background: #282c34;
+
+  .blog--title {
+    padding: 4em 0;
+  }
+
   .blog-post {
     
     h1 {
@@ -12,7 +18,6 @@
     }
   
     h2 {
-      margin-bottom: 2em;
       font-size: 0.8em;
       color: #61dafb;
     }
@@ -20,7 +25,8 @@
   }  
   
   .blog-post-content {
-    padding: 0 10%;
+    padding: 4em 6em;
+    background: #fff;
     text-align: left;
     font-size: 1.2rem;
 
@@ -29,6 +35,17 @@
     }
   }
   
+  .disqusContainer {
+    padding: 2em 4em;
+    background: #fff;
+    color: #000;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .blog-post-container .blog-post h1 {
+    margin: 0 15rem;
+  }
 }
 
 @media screen and (max-width: 767px) {

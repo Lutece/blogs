@@ -12,20 +12,13 @@ class Header extends React.Component {
 
     return (
       <header>
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 600,
-            padding: '1.45rem 1.0875rem',
-            textAlign: 'center'
-          }}
-        >
+        <div className="header--container">
           <h1 className="header--title">
             <Link
               to="/"
               className="header--link"
             >
-              In Progress
+              루테스
             </Link>
           </h1>
           <p style={(isRoot) ? {display:'block'} : {display:'none'}}>
@@ -65,14 +58,16 @@ class TemplateWrapper extends React.Component {
         <div
           style={{
             margin: '0 auto',
-            maxWidth: 900,
-            padding: '0px 1.0875rem 1.45rem',
             paddingTop: 0,
             textAlign: 'center'
           }}
         >
           {this.props.children()}
         </div>
+
+        <footer>
+          Copyright © 2018 Lutece.
+        </footer>
       </div>
     )
   }
