@@ -32,13 +32,17 @@
       "path---css-a0e39f21c11f6a62c5ab.js",
       "path---css-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---react-pure-component": [
+      "path---react-pure-component-5a740d22279f1b254353.js",
+      "path---react-pure-component-5a740d22279f1b254353.js.map"
+    ],
     "component---src-pages-js-es-5-index-js": [
       "component---src-pages-js-es-5-index-js-b82dce44ceeb5b57b276.js",
       "component---src-pages-js-es-5-index-js-b82dce44ceeb5b57b276.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-205b12d8f851c36db588.js",
-      "component---src-layouts-index-js-205b12d8f851c36db588.js.map"
+      "component---src-layouts-index-js-2485bbdc1218129f193c.js",
+      "component---src-layouts-index-js-2485bbdc1218129f193c.js.map"
     ],
     "path---react-combine-component": [
       "path---react-combine-component-e250e0f6890bdf3cfc7c.js",
@@ -81,9 +85,9 @@
       "component---src-pages-css-index-js-eb2d1780ed52526a0b83.js.map"
     ],
     "app": [
-      "app-fd04004c479fde600482.js",
+      "app-e7b818c751a53d938e4c.js",
       "build-js-styles.css",
-      "app-fd04004c479fde600482.js.map",
+      "app-e7b818c751a53d938e4c.js.map",
       "build-js-styles.css.map"
     ],
     "path---css-flex": [
