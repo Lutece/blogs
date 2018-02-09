@@ -18,7 +18,7 @@ class Header extends React.Component {
               to="/"
               className="header--link"
             >
-              루테스
+              Lutece
             </Link>
           </h1>
           <p style={(isRoot) ? {display:'block'} : {display:'none'}}>
