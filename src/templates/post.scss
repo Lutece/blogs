@@ -1,13 +1,21 @@
+$color: #fdc2c2;
+$visitColor: #ff6a49;
+
 .blog-post-container {
+
+  position: relative;
+  margin-top: -70px;
+  width: 100%;
+
 
   .gatsby-highlight {
     padding: 2em 0;
   }
 
-  background: #282c34;
+  background: transparent;
 
   .blog--title {
-    padding: 4em 0;
+    padding: 0em 0 1em 0;
   }
 
   .blog-post {
@@ -15,15 +23,16 @@
     h1 {
       margin: 0 9.3rem;
       padding: 0.88rem 0;
-      border-top: 1px solid #61dafb;
-      border-bottom: 1px solid #61dafb;
+      border-top: 1px solid #fdc2c2;
+      border-bottom: 1px solid #fdc2c2;
       font-size: 1.1em;
-      color: #61dafb;
+      color: #fdc2c2;
     }
   
     h2 {
+      margin: 1.2em 0;
       font-size: 0.8em;
-      color: #61dafb;
+      color: #fdc2c2;
     }
 
   }  
@@ -33,6 +42,8 @@
     background: #fff;
     text-align: left;
     font-size: 1.2rem;
+    font-weight: 400;
+    color: #000;
 
     hr {
       margin: 4rem 0;
@@ -58,9 +69,5 @@
     margin: 0 1.6rem;
     padding: 1rem;
     font-size: 1.3rem;
-  }
-
-  .blog-post-container {
-    width: 600px;
   }
 }

@@ -1,0 +1,59 @@
+$color: #fdc2c2;
+$visitColor: #ff6a49;
+
+.recent-post-conatiner {
+  margin: 1em 0;
+  padding-bottom: 3em;
+
+  hr {
+    margin: 3em 20%;
+    background-color: $color;
+  }
+
+  &--tag.tag {
+    color: $color;
+    background-color: transparent;
+  }
+
+
+  .post-title {
+    padding: 2em 0 0 0;
+    font-weight: 400;
+  }
+
+  &:hover {
+    @-webkit-keyframes color-change {
+      0% { color: #fdc2c2; }
+      50% { color: $visitColor; }
+      100% { color: $visitColor; }
+    }
+    @-moz-keyframes color-change {
+      0% { color: #fdc2c2; }
+      50% { color: $visitColor; }
+      100% { color: $visitColor; }
+    }
+    @-ms-keyframes color-change {
+      0% { color: #fdc2c2; }
+      50% { color: $visitColor; }
+      100% { color: $visitColor; }
+    }
+    @-o-keyframes color-change {
+      0% { color: #fdc2c2; }
+      50% { color: $visitColor; }
+      100% { color: $visitColor; }
+    }
+    @keyframes color-change {
+      0% { color: #fdc2c2; }
+      50% { color: $visitColor; }
+      100% { color: $visitColor; }
+    }
+    
+    color: $visitColor;
+
+    -webkit-animation: color-change 1s;
+    -moz-animation: color-change 1s;
+    -o-animation: color-change 1s;
+    -ms-animation: color-change 1s;
+    animation: color-change 1s;
+  }
+}

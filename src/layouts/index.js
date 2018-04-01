@@ -2,34 +2,34 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 
+import Leaf from '../components/Leaf';
+
+import 'bulma';
 import './scss/index.scss';
+
 require("prismjs/themes/prism-okaidia.css");
 
 class Header extends React.Component {
   render() {
 
-    const isRoot = this.props.isRoot;
+    const { isRoot } = this.props;
 
     return (
       <header>
+        <Leaf isRoot />
         <div className="header--container">
-          <h1 className="header--title">
-            <Link
-              to="/"
-              className="header--link"
-            >
-              Lutece
-            </Link>
-          </h1>
-          <p style={(isRoot) ? {display:'block'} : {display:'none'}}>
-            프론트엔드 개발 경험을 기록하는 블로그입니다.
-          </p>
-          
-          {/* <ul className="header--category">
-            <li>React</li>
-            <li>Webpack</li>
-            <li>Mobx</li>
-          </ul> */}
+          <nav className="header--menu-container">
+            <ul>
+              <li>
+                <Link to="/" className="header--link">
+                  Lutece
+                </Link>
+              </li>
+            </ul>  
+          </nav>
+          <div className="header--title" style={(isRoot) ? {display:'block'} : {display:'none'}}>
+            주니어 프론트엔드 개발자의 블로그
+          </div>
         </div>
       </header>
     )
@@ -46,10 +46,7 @@ class TemplateWrapper extends React.Component {
       rootPath = __PATH_PREFIX__ + `/`
     }
 
-    let isRoot = false;
-    if (location.pathname === rootPath) {
-      isRoot = true;
-    }
+    const isRoot = location.pathname === rootPath;
 
     return (
       <div>
@@ -64,9 +61,9 @@ class TemplateWrapper extends React.Component {
         >
           {this.props.children()}
         </div>
-
+        
         <footer>
-          Copyright © 2018 Lutece.
+          Copyright © 2018 Lutece
         </footer>
       </div>
     )

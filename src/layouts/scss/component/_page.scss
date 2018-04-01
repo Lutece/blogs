@@ -3,14 +3,16 @@ html, body {
   height:100%;
   margin: 0;
   padding: 0;
+  background: #313566;
 }
 
 body {
   padding-bottom: 3em;
-  background: #20232b;
   font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
   font-size: 24px;
   font-weight: 300;
+  background: #313566;
+  color: #fdc2c2;
 }
 
 ul {
@@ -26,4 +28,15 @@ li {
 
 strong, code {
   font-weight: 400;
+}
+
+$color: #fdc2c2;
+$visitColor: #ff6a49;
+
+a {
+
+  color: $color;
+  &:visited {
+    color: $color;
+  }
 }

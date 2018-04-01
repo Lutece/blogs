@@ -1,6 +1,7 @@
 import React from "react";
 import './post.scss';
-import Disqus from '../component/Disqus';
+import Disqus from '../components/Disqus';
+import Link from 'gatsby-link';
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -34,6 +35,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        tags
       }
     }
   }
