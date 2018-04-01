@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{294:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{id:"/Users/Lutece/workspace/blog/src/pages/html/nav.md absPath of file >>> MarkdownRemark",frontmatter:{path:"/html/nav",title:"Nav Element",date:"01 April, 2018"}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-b67d8918f3f039ab4e34.js.map
