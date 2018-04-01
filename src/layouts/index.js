@@ -12,11 +12,11 @@ require("prismjs/themes/prism-okaidia.css");
 class Header extends React.Component {
   render() {
 
-    const { isRoot } = this.props;
+    const { isRoot, pathname } = this.props;
 
     return (
       <header>
-        <Leaf isRoot />
+        <Leaf pathname={pathname} />
         <div className="header--container">
           <nav className="header--menu-container">
             <ul>
@@ -50,7 +50,7 @@ class TemplateWrapper extends React.Component {
 
     return (
       <div>
-        <Header isRoot={isRoot} />
+        <Header isRoot={isRoot} pathname={location.pathname} />
         
         <div
           style={{
